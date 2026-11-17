@@ -127,8 +127,8 @@ You need Node.js 20 or newer, npm, and Docker Desktop. Docker is what runs the l
 ### 1. Clone and install
 
 ```sh
-git clone https://github.com/YOUR_USER/gatherkit.git
-cd gatherkit
+git clone https://github.com/sandeep-singh-ai/CelebrateSmartly.git
+cd CelebrateSmartly
 cp .env.example .env
 npm install
 ```
