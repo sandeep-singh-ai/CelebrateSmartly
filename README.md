@@ -209,6 +209,31 @@ Use a new project. Do not point `.env` at a database that already has real guest
 
 Working prototype. The RSVP flow, guest lists, QR check-in, celebration pages, and Google vendor search are in the app. Wedding speech and vows writers draft from the form and are ready for a real model key.
 
+## Contribute
+
+Changes land on `master` only through a pull request. Do not push commits straight to `master`.
+
+1. Fork https://github.com/sandeep-singh-ai/CelebrateSmartly and clone your fork.
+2. Create a branch from `master`:
+
+```sh
+git checkout master
+git pull
+git checkout -b fix-rsvp-email
+```
+
+3. Make the change. Run `npm run lint` and `npm run build` before you open the request.
+4. Push the branch to your fork and open a pull request into `sandeep-singh-ai/CelebrateSmartly`, base branch `master`.
+5. Describe what changed and how you tested it. Wait for the pull request to be merged. A green "Merge" on the pull request is what updates `master`.
+
+The repository owner turns this into a hard rule under **Settings → Branches → Add branch ruleset** (or **Add classic branch protection rule**) for `master`:
+
+- Require a pull request before merging
+- Do not allow bypassing the rule
+- Block force pushes
+
+Until that rule is on, GitHub will still accept a direct push. The pull request is the required path either way.
+
 ## Before you publish this repo
 
 - Keep `.env` private. Real keys stay on your machine and on the host.
