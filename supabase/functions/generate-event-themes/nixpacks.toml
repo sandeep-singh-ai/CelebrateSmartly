@@ -1,0 +1,13 @@
+[phases.setup]
+nixPkgs = ["curl"]
+
+[phases.install]
+cmds = [
+  "curl -fsSL https://deno.land/install.sh | DENO_INSTALL=/usr/local sh -s v2.2.1"
+]
+
+[phases.build]
+cmds = ["deno --version"]
+
+[phases.start]
+cmds = ["deno run --allow-net --allow-env index.ts"]

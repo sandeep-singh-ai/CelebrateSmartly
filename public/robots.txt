@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin areas
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /create-event
+Disallow: /events/create
+Disallow: /guest-lists
+Disallow: /rsvp-events
+Disallow: /website-builder
+Disallow: /event-website-builder
+
+# Allow important pages
+Allow: /blog
+Allow: /vendors
+Allow: /about
+Allow: /contact
+Allow: /pricing
+Allow: /faq
+Allow: /help

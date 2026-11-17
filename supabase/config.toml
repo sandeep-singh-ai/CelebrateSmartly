@@ -1,0 +1,10 @@
+project_id = "kthnwmgkdkuleuysobru"
+
+[db]
+major_version = 15
+
+[functions.migrate-vendor-images]
+verify_jwt = true
+
+[functions.send-secure-email]
+verify_jwt = false
