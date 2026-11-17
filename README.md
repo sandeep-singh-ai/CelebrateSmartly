@@ -4,7 +4,7 @@ Gatherkit is an open-source RSVP tool for weddings, birthdays, baby showers, and
 
 The app you see in the screenshots is branded **CelebrateSmartly**. Gatherkit is the name of this open-source project. It is a working prototype, built and used over two months.
 
-<img src="docs/images/rsvp-tool-home.jpg" alt="Free online RSVP tool home page with event planning, guest management, and local vendor discovery" width="560">
+![Free online RSVP tool home page with event planning, guest management, and local vendor discovery](docs/images/rsvp-tool-home.jpg)
 
 ## Why people look for an RSVP tool
 
@@ -56,7 +56,7 @@ Search by zip code, category, and radius (10, 25, 50, or 100 miles). Results com
 
 Repeat searches are cached and refreshed about every 30 days, so the list stays fast and does not call Google for the same zip code every time. Hosts can open a vendor, save favorites, and look back at recent searches.
 
-<img src="docs/images/local-vendor-search.jpg" alt="Local event vendor search by zip code, category, and radius" width="920">
+![Local event vendor search by zip code, category, and radius](docs/images/local-vendor-search.jpg)
 
 ### Home page and event types
 
@@ -71,7 +71,7 @@ The home page is the front door: plan an event, find a vendor, or start free. Br
 - Holiday parties
 - House parties
 
-<img src="docs/images/browse-events.jpg" alt="Browse events page for weddings, birthdays, baby showers, and other celebrations" width="720">
+![Browse events page for weddings, birthdays, baby showers, and other celebrations](docs/images/browse-events.jpg)
 
 ### Wedding tools
 
