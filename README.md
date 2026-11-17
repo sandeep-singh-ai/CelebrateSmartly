@@ -211,7 +211,7 @@ Working prototype. The RSVP flow, guest lists, QR check-in, celebration pages, a
 
 ## Contribute
 
-Changes land on `master` only through a pull request. Do not push commits straight to `master`.
+Anyone can propose a change. Only the maintainer can merge it into `master`.
 
 1. Fork https://github.com/sandeep-singh-ai/CelebrateSmartly and clone your fork.
 2. Create a branch from `master`:
@@ -222,17 +222,13 @@ git pull
 git checkout -b fix-rsvp-email
 ```
 
-3. Make the change. Run `npm run lint` and `npm run build` before you open the request.
-4. Push the branch to your fork and open a pull request into `sandeep-singh-ai/CelebrateSmartly`, base branch `master`.
-5. Describe what changed and how you tested it. Wait for the pull request to be merged. A green "Merge" on the pull request is what updates `master`.
+3. Make the change. Run `npm run lint` and `npm run build`.
+4. Push that branch to your fork. Open a pull request into `sandeep-singh-ai/CelebrateSmartly` with base `master`.
+5. Write what changed and how you tested it.
 
-The repository owner turns this into a hard rule under **Settings → Branches → Add branch ruleset** (or **Add classic branch protection rule**) for `master`:
+The maintainer reviews the pull request and presses **Merge pull request**. That is the only way the change reaches `master`. Do not expect write access to this repository, and do not push to `master` yourself.
 
-- Require a pull request before merging
-- Do not allow bypassing the rule
-- Block force pushes
-
-Until that rule is on, GitHub will still accept a direct push. The pull request is the required path either way.
+To keep your own pushes off `master` too, add a classic branch protection rule for `master` under **Settings → Branches** and enable **Require a pull request before merging**. You still merge each request yourself. GitHub will not let a contributor merge it.
 
 ## Before you publish this repo
 
